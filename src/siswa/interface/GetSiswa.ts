@@ -1,4 +1,4 @@
-import { Siswa } from "src/siswa/dto/siswa.entity";
+import { Siswa } from "src/siswa/dto/siswa-entity";
 
 export interface GetSiswa {
     statusCode: number;

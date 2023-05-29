@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Delete, Put, Body, Param, NotFoundException, HttpStatus } from '@nestjs/common';
 import { SiswaService } from './siswa.service';
-import { Siswa } from 'src/siswa/dto/siswa.entity';
+import { Siswa } from 'src/siswa/dto/siswa-entity';
 import { CreateSiswaDto } from './dto/create-siswa.dto';
 import { UpdateSiswaDto } from './dto/update-siswa.dto';
 import { InjectRepository } from '@nestjs/typeorm';
